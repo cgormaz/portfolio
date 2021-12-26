@@ -130,6 +130,15 @@ a {
     transition: var(--transition);
 }
 
+.about a {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.about a:hover {
+    color: var(--color-link);
+}
+
 span {
     display: inline-block;
 }
@@ -4662,7 +4671,7 @@ Pagination
 }
 
 .project-grid .subtitle {
-    color: #bbb;
+    color: #ddd !important;
 }
 
 .project-grid .content .title {
