@@ -120,6 +120,16 @@ STYLESHEET INDEXING
     --h6: 20px;
 }
 
+::-moz-selection {
+  background: #41baa4;
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  background: #41baa4;
+  color: #fff;
+  text-shadow: none; }
+
 /*-------------------------
     Reset Styels
 -------------------------*/
@@ -629,6 +639,10 @@ input {
 -------------------------*/
 .bg-color-dark {
     background-color: var(--color-dark);
+}
+
+.bg-color-black {
+    background-color: #090810;
 }
 
 .bg-color-light {
@@ -2751,6 +2765,20 @@ Pagination
 
 .about-team .thumbnail {
     padding-right: 100px;
+}
+
+/*-------------------------
+    Long Gone Days
+-------------------------*/
+div#lgd {
+	background-image: url("../media/project/lgdbg.png");
+    background-position: inherit;
+    background-size: cover;
+    color: #ccc;
+}
+
+#lgd h1.title.h2 {
+    color: #ddd;
 }
 
 /*-------------------------
@@ -8934,7 +8962,7 @@ Pagination
 -------------------------*/
 .active-dark-mode {
     color-scheme: dark;
-    --dark-main-body: #212121;
+    --dark-main-body: #1e1f27;
     --dark-bg-color: var(--color-dark);
     --dark-body-text: #D3D3D4;
     --dark-title-light: #D3D3D4;
