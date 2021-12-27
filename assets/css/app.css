@@ -645,6 +645,10 @@ input {
     background-color: #090810;
 }
 
+.bg-color-nano {
+    background-color: #52333f;
+}
+
 .bg-color-light {
     background-color: var(--color-light);
 }
@@ -2777,8 +2781,14 @@ div#lgd {
     color: #ccc;
 }
 
-#lgd h1.title.h2 {
+#lgd h1.title.h2, #nano h1.title.h2 {
     color: #ddd;
+}
+
+div#nano {
+	background-color: #291d2b;
+	background-image: none;
+    color: #ccc;
 }
 
 /*-------------------------
@@ -9986,7 +9996,7 @@ div#lgd {
     Section Space
 -------------------------*/
 .section-padding {
-    padding: 140px 0 110px;
+    padding: 90px 0 110px;
 }
 
 @media only screen and (max-width: 1199px) {
