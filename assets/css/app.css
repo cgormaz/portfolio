@@ -2779,7 +2779,7 @@ Pagination
     Special Styles
 -------------------------*/
 
-section#splash {
+section#splash, div#miniheader {
     background: rgb(219,244,235);
     background: radial-gradient(circle, rgb(238 255 213 / 33%) 11%, rgb(148 233 211 / 39%) 61%, rgb(148 177 233 / 47%) 100%);
 }
@@ -4682,12 +4682,12 @@ div#rc {
 
 .project-grid .thumbnail {
     overflow: hidden;
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px;
     position: relative;
 }
 
 .project-grid .thumbnail img {
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px;
     width: 100%;
     -webkit-transition: var(--transition);
     transition: var(--transition);
