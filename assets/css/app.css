@@ -2809,6 +2809,14 @@ div#rc {
 #rc h1.title.h2, #rc span.subtitle {
     color: #ff8383;
 }
+
+.infographic {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: #bb9a9c 0px 0px 10px;
+}
+
 /*-------------------------
     Banner
 -------------------------*/
