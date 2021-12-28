@@ -3231,7 +3231,7 @@ div#rc {
 }
 
 .banner.banner-style-3 {
-    padding: 220px 0 210px;
+    padding: 220px 0 100px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -3248,7 +3248,7 @@ div#rc {
 
 @media only screen and (max-width: 767px) {
     .banner.banner-style-3 {
-        padding: 150px 0 100px;
+        padding: 150px 0 60px;
     }
 }
 
